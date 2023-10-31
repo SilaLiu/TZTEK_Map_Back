@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nvidia/catkin_ws/src/fixposition_gnss_tf/include/fixposition_gnss_tf/gnss_tf.hpp
+eigen3/Eigen/Core
+-
+eigen3/Eigen/Geometry
+-
+
+/home/nvidia/catkin_ws/src/fixposition_gnss_tf/src/gnss_tf.cpp
+fixposition_gnss_tf/gnss_tf.hpp
+/home/nvidia/catkin_ws/src/fixposition_gnss_tf/src/fixposition_gnss_tf/gnss_tf.hpp
+

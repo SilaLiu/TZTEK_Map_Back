@@ -1,0 +1,7 @@
+运行环境:arm64
+放到工作空间，src目录下编译
+编译完成后建立环境变量，然后执行
+roslaunch camera_ros cam_ros.launch
+
+备注：
+相机的设备名和分辨率可以通过launch文件进行修改

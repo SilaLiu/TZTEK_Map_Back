@@ -1,0 +1,8 @@
+prefix=/home/nvidia/catkin_ws/install
+
+Name: fixposition_driver
+Description: Description of fixposition_driver
+Version: 4.3.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: tf roscpp geometry_msgs nav_msgs std_msgs message_runtime

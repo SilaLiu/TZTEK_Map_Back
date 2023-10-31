@@ -1,0 +1,8 @@
+prefix=/home/nvidia/catkin_ws/devel
+
+Name: camera_ros
+Description: Description of camera_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: image_transport message_generation roscpp sensor_msgs std_msgs nodelet

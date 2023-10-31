@@ -1,0 +1,8 @@
+prefix=/home/nvidia/catkin_ws/install
+
+Name: fixposition_gnss_tf
+Description: Description of fixposition_gnss_tf
+Version: 2.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lfixposition_gnss_tf
+Requires: 

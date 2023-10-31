@@ -1,0 +1,71 @@
+<launch>
+
+    <group ns="tztek">
+            <node pkg="camera_ros" type="camera_ros" name="camera0_ros" output="screen">
+                     <param name="name"                     type="string"     value="camera0"/>
+                     <param name="dev"                      type="string"     value="/dev/video0"/> <!-- select 0 1 2 3 4 -->
+                     <param name="width"                    type="int"        value="1920"/>
+                     <param name="height"                   type="int"        value="1080"/>
+                     <param name="frame_id"                 type="string"     value="camera0"/>
+            </node>
+
+             <node pkg="camera_ros" type="camera_ros" name="camera1_ros" output="screen">
+                     <param name="name"                     type="string"     value="camera1"/>
+                     <param name="dev"                      type="string"     value="/dev/video1"/> 
+                     <param name="width"                    type="int"        value="1920"/>
+                     <param name="height"                   type="int"        value="1080"/>
+                     <param name="frame_id"                 type="string"     value="camera1"/>
+
+            </node>
+
+             <node pkg="camera_ros" type="camera_ros" name="camera2_ros" output="screen">
+                     <param name="name"                     type="string"     value="camera2"/>
+                     <param name="dev"                      type="string"     value="/dev/video2"/> 
+                     <param name="width"                    type="int"        value="1920"/>
+                     <param name="height"                   type="int"        value="1080"/>
+                     <param name="frame_id"                 type="string"     value="camera2"/>
+            </node>
+
+             <node pkg="camera_ros" type="camera_ros" name="camera3_ros" output="screen">
+                     <param name="name"                     type="string"     value="camera3"/>
+                     <param name="dev"                      type="string"     value="/dev/video3"/> 
+                     <param name="width"                    type="int"        value="1920"/>
+                     <param name="height"                   type="int"        value="1080"/>
+                     <param name="frame_id"                 type="string"     value="camera3"/>
+            </node>
+
+             <node pkg="camera_ros" type="camera_ros" name="camera4_ros" output="screen">
+                     <param name="name"                     type="string"     value="camera4"/>
+                     <param name="dev"                      type="string"     value="/dev/video4"/> 
+                     <param name="width"                    type="int"        value="1920"/>
+                     <param name="height"                   type="int"        value="1080"/>
+                     <param name="frame_id"                 type="string"     value="camera4"/>
+            </node>
+
+             <node pkg="camera_ros" type="camera_ros" name="camera5_ros" output="screen">
+                     <param name="name"                     type="string"     value="camera5"/>
+                     <param name="dev"                      type="string"     value="/dev/video5"/> 
+                     <param name="width"                    type="int"        value="1920"/>
+                     <param name="height"                   type="int"        value="1080"/>
+                     <param name="frame_id"                 type="string"     value="camera5"/>
+            </node>
+
+            <node pkg="camera_ros" type="camera_ros" name="camera6_ros" output="screen">
+                     <param name="name"                     type="string"     value="camera6"/>
+                     <param name="dev"                      type="string"     value="/dev/video6"/> 
+                     <param name="width"                    type="int"        value="1920"/>
+                     <param name="height"                   type="int"        value="1080"/>
+                     <param name="frame_id"                 type="string"     value="camera6"/>
+            </node>
+
+            <node pkg="camera_ros" type="camera_ros" name="camera7_ros" output="screen">
+                     <param name="name"                     type="string"     value="camera7"/>
+                     <param name="dev"                      type="string"     value="/dev/video7"/> 
+                     <param name="width"                    type="int"        value="1920"/>
+                     <param name="height"                   type="int"        value="1080"/>
+                     <param name="frame_id"                 type="string"     value="camera7"/>
+            </node>
+
+    </group>
+
+</launch>        

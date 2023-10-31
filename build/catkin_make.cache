@@ -1,0 +1,2 @@
+camera_ros:fixposition_driver:fixposition_gnss_tf:ouster-ros:zed-ros-wrapper-3.7.x/zed-ros-interfaces/zed-ros-interfaces-1.2:zed-ros-wrapper-3.7.x/zed_nodelets:zed-ros-wrapper-3.7.x/zed_ros:zed-ros-wrapper-3.7.x/zed_wrapper
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/catkin_ws/install -G Unix Makefiles

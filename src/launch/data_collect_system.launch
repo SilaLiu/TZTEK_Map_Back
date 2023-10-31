@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<launch>
+<!--
+	<group ns="gimbal_camera">
+		<node type="web_cam" name="fv_tracking_node" pkg="fv_tracking" respawn="true" output="screen"  />
+		<node type="serial_node" name="serial_ros_node" pkg="serial_ros" output="screen"  />
+		<node type="moni" name="serial_ros_node" pkg="serial_ros" output="screen"  />
+	</group>
+-->
+	<!--<include file="$(find camera_ros)/launch/cam_ros.launch">
+	</include>-->
+
+	<include file="$(find fixposition_driver)/launch/tcp.launch">
+	</include>
+
+	<include file="$(find ouster_ros)/launch/sensor.launch">
+	</include>
+
+	<include file="$(find zed_wrapper)/launch/zed2i.launch">
+	</include>
+
+</launch>

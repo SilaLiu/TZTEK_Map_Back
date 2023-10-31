@@ -1,0 +1,47 @@
+[
+{
+  "directory": "/home/nvidia/catkin_ws/build/fixposition_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"fixposition_driver\\\" -I/home/nvidia/catkin_ws/devel/include -I/home/nvidia/catkin_ws/src/fixposition_driver/include -I/home/nvidia/catkin_ws/src/fixposition_gnss_tf/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wno-unused-parameter -O3 -fPIE   -std=gnu++14 -o CMakeFiles/fixposition_driver.dir/src/fixposition_driver_node.cpp.o -c /home/nvidia/catkin_ws/src/fixposition_driver/src/fixposition_driver_node.cpp",
+  "file": "/home/nvidia/catkin_ws/src/fixposition_driver/src/fixposition_driver_node.cpp"
+},
+{
+  "directory": "/home/nvidia/catkin_ws/build/fixposition_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"fixposition_driver\\\" -I/home/nvidia/catkin_ws/devel/include -I/home/nvidia/catkin_ws/src/fixposition_driver/include -I/home/nvidia/catkin_ws/src/fixposition_gnss_tf/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wno-unused-parameter -O3 -fPIE   -std=gnu++14 -o CMakeFiles/fixposition_driver.dir/src/fixposition_driver.cpp.o -c /home/nvidia/catkin_ws/src/fixposition_driver/src/fixposition_driver.cpp",
+  "file": "/home/nvidia/catkin_ws/src/fixposition_driver/src/fixposition_driver.cpp"
+},
+{
+  "directory": "/home/nvidia/catkin_ws/build/fixposition_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"fixposition_driver\\\" -I/home/nvidia/catkin_ws/devel/include -I/home/nvidia/catkin_ws/src/fixposition_driver/include -I/home/nvidia/catkin_ws/src/fixposition_gnss_tf/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wno-unused-parameter -O3 -fPIE   -std=gnu++14 -o CMakeFiles/fixposition_driver.dir/src/base_converter.cpp.o -c /home/nvidia/catkin_ws/src/fixposition_driver/src/base_converter.cpp",
+  "file": "/home/nvidia/catkin_ws/src/fixposition_driver/src/base_converter.cpp"
+},
+{
+  "directory": "/home/nvidia/catkin_ws/build/fixposition_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"fixposition_driver\\\" -I/home/nvidia/catkin_ws/devel/include -I/home/nvidia/catkin_ws/src/fixposition_driver/include -I/home/nvidia/catkin_ws/src/fixposition_gnss_tf/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wno-unused-parameter -O3 -fPIE   -std=gnu++14 -o CMakeFiles/fixposition_driver.dir/src/odometry.cpp.o -c /home/nvidia/catkin_ws/src/fixposition_driver/src/odometry.cpp",
+  "file": "/home/nvidia/catkin_ws/src/fixposition_driver/src/odometry.cpp"
+},
+{
+  "directory": "/home/nvidia/catkin_ws/build/fixposition_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"fixposition_driver\\\" -I/home/nvidia/catkin_ws/devel/include -I/home/nvidia/catkin_ws/src/fixposition_driver/include -I/home/nvidia/catkin_ws/src/fixposition_gnss_tf/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wno-unused-parameter -O3 -fPIE   -std=gnu++14 -o CMakeFiles/fixposition_driver.dir/src/llh.cpp.o -c /home/nvidia/catkin_ws/src/fixposition_driver/src/llh.cpp",
+  "file": "/home/nvidia/catkin_ws/src/fixposition_driver/src/llh.cpp"
+},
+{
+  "directory": "/home/nvidia/catkin_ws/build/fixposition_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"fixposition_driver\\\" -I/home/nvidia/catkin_ws/devel/include -I/home/nvidia/catkin_ws/src/fixposition_driver/include -I/home/nvidia/catkin_ws/src/fixposition_gnss_tf/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wno-unused-parameter -O3 -fPIE   -std=gnu++14 -o CMakeFiles/fixposition_driver.dir/src/imu.cpp.o -c /home/nvidia/catkin_ws/src/fixposition_driver/src/imu.cpp",
+  "file": "/home/nvidia/catkin_ws/src/fixposition_driver/src/imu.cpp"
+},
+{
+  "directory": "/home/nvidia/catkin_ws/build/fixposition_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"fixposition_driver\\\" -I/home/nvidia/catkin_ws/devel/include -I/home/nvidia/catkin_ws/src/fixposition_driver/include -I/home/nvidia/catkin_ws/src/fixposition_gnss_tf/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wno-unused-parameter -O3 -fPIE   -std=gnu++14 -o CMakeFiles/fixposition_driver.dir/src/tf.cpp.o -c /home/nvidia/catkin_ws/src/fixposition_driver/src/tf.cpp",
+  "file": "/home/nvidia/catkin_ws/src/fixposition_driver/src/tf.cpp"
+},
+{
+  "directory": "/home/nvidia/catkin_ws/build/fixposition_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"fixposition_driver\\\" -I/home/nvidia/catkin_ws/devel/include -I/home/nvidia/catkin_ws/src/fixposition_driver/include -I/home/nvidia/catkin_ws/src/fixposition_gnss_tf/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wno-unused-parameter -O3 -fPIE   -std=gnu++14 -o CMakeFiles/fixposition_driver.dir/src/helper.cpp.o -c /home/nvidia/catkin_ws/src/fixposition_driver/src/helper.cpp",
+  "file": "/home/nvidia/catkin_ws/src/fixposition_driver/src/helper.cpp"
+},
+{
+  "directory": "/home/nvidia/catkin_ws/build/fixposition_driver",
+  "command": "/usr/bin/c++  -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\\\"fixposition_driver\\\" -I/home/nvidia/catkin_ws/devel/include -I/home/nvidia/catkin_ws/src/fixposition_driver/include -I/home/nvidia/catkin_ws/src/fixposition_gnss_tf/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3   -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wno-unused-parameter -O3 -fPIE   -std=gnu++14 -o CMakeFiles/fixposition_driver.dir/src/params.cpp.o -c /home/nvidia/catkin_ws/src/fixposition_driver/src/params.cpp",
+  "file": "/home/nvidia/catkin_ws/src/fixposition_driver/src/params.cpp"
+}
+]
